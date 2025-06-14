@@ -1,0 +1,35 @@
+.formCantainer{
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+
+.formCantainer input{
+  width: 90%;
+  margin-top: 5px;
+  border:none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.formCantainer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formCantainer button:hover{
+    color: #007bff;
+    background-color: white;
+}
